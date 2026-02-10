@@ -1,0 +1,46 @@
+### 2.1 The Four Source Keys: Temporal, Power, Capacity, Weight
+
+In an era saturated with high-dimensional data yet starved of epistemic grounding, the One Ten Protocol begins not with abstraction, but with **embodied reality**. It asserts that truth cannot emerge from pure computation alone; it must be anchored in the physical state of the observer. To this end, the protocol defines four primary **Source Keys**—minimal, measurable, and universally accessible metadata streams that tether algorithmic processes to the material world:
+
+1. **Temporal** (⏱️): Minutes elapsed since midnight (0–1439)  
+2. **Power** (🔋): Remaining battery charge as a percentage (0–100%)  
+3. **Capacity** (💾): Total non-volatile storage available (in gigabytes)  
+4. **Weight** (⚖️): Digital mass of the target artifact (in megabytes)
+
+These are not arbitrary metrics. They constitute a **phenomenological quartet**—a minimal set of observables that any computational agent, from a smartphone to a satellite sensor, can report without external calibration. Critically, they encode **time**, **energy**, **space**, and **substance**—the four classical dimensions of embodied existence.
+
+#### 2.1.1 Temporal: The Arrow of Context
+
+Temporal is not merely a clock reading; it is a **contextual vector**. By reducing time to minutes since midnight, the protocol discards calendrical noise (day, month, year) and retains only the cyclical rhythm that governs human and machine activity alike. This value anchors all subsequent computation in a shared diurnal frame—enabling cross-device convergence without requiring synchronized global clocks. In practice, Temporal modulates dimension selection: at 03:14 (194 min), Fibonacci spirals dominate; at 18:02 (1082 min), prime sieves activate. Time here is not linear—it is **generative**.
+
+#### 2.1.2 Power: The Thermodynamic Witness
+
+Power quantifies the **remaining energetic potential** of the system. Unlike CPU load or network latency, battery percentage is a direct measure of thermodynamic decay—a countdown to silence. The protocol treats Power as both constraint and muse: low power (<20%) triggers sparse, efficient dimensions (e.g., binary encoding); high power (>80%) unlocks computationally intensive lenses (e.g., celestial ephemerides). Thus, Power becomes a **moral governor**: truth must be affordable. A Chronicle born at 5% battery carries the weight of urgency; one at 95% luxuriates in depth. Energy is not just a resource—it is **ethical context**.
+
+#### 2.1.3 Capacity: The Architecture of Memory
+
+Capacity measures the total addressable storage—**not used space, but potential space**. This distinction is deliberate. The protocol does not care what has been remembered; it cares what *could be*. Capacity thus functions as a proxy for **system maturity**: a 16 GB device operates in survival mode; a 2 TB server engages in archival thinking. In dimensional mapping, Capacity sets modulus bases (e.g., Modular Arithmetie uses `N mod Capacity`) and bounds recursive depth. It answers: *How much truth can this vessel hold?* Memory, here, is not passive—it is **architectural**.
+
+#### 2.1.4 Weight: The Mass of Meaning
+
+Weight is the digital mass of the input artifact—the file, log, or dataset under scrutiny. Measured in megabytes, it encodes **semantic density**. A 0.1 MB text file yields crisp linguistic signals; a 2.4 GB sensor log activates matter-based dimensions (atomic isotopes, vibration modes). Weight determines whether the system leans toward **narrative** (light) or **materiality** (heavy). Crucially, Weight is never normalized—it remains absolute, preserving the raw asymmetry of real-world data. In doing so, it resists the flattening tendency of modern AI, which treats a tweet and a genome as equivalent tokens. Here, mass matters.
+
+#### 2.1.5 Convergence Through Constraint
+
+Together, these four keys form a **deterministic seed**. Given identical inputs, the protocol *must* produce identical outputs—no stochasticity, no latent spaces, no “temperature” sliders. This is not a limitation; it is a **virtue of verifiability**. The keys are chosen precisely because they are:
+- **Observable**: No privileged access required  
+- **Bounded**: Finite ranges prevent pathological inputs  
+- **Orthogonal**: Minimal correlation across domains  
+- **Universal**: Available on >99% of computing devices  
+
+In essence, the Source Keys transform the One Ten Protocol from a speculative framework into an **executable epistemology**—one where truth is not declared, but **converged upon through disciplined observation of the real**.
+
+> “We do not ask what the data means.  
+> We ask what the device *is*, at this moment, in this place.”  
+
+This grounding ensures that every Chronicle, no matter how poetic, remains tethered to a specific slice of spacetime—making hallucination not just unlikely, but **structurally impossible**.
+
+---
+
+*Next section preview*: **2.2 The Twelve Dimensions: Bridging Math, Matter, and Humanities** will detail how these keys are transduced into resonant signals across three ontological domains, enabling cross-disciplinary truth discovery.
+
