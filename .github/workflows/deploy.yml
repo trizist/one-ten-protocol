@@ -1,0 +1,66 @@
+name: Build and Deploy One Ten Protocol
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Build Web UI
+        run: |
+          cd web
+          npm ci
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web/dist
+          publish_branch: gh-pages
+          cname: one-ten.trizist.ai  # Optional: remove if not using custom domain
+
+  build-cli-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install CLI deps
+        run: |
+          pip install -r cli/requirements.txt
+
+      - name: Generate sample Chronicle (RUN 247)
+        run: |
+          mkdir -p artifacts/run247
+          python cli/chronicle-cli.py \
+            --temporal 362 \
+            --power 63 \
+            --capacity 128 \
+            --weight 2.4 \
+            --n 247 \
+            --output-dir artifacts/run247
+
+      - name: Upload CLI artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: chronicle-run247
+          path: artifacts/run247/
