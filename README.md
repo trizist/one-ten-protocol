@@ -1,7 +1,7 @@
 # 🌐 The One Ten Protocol  
 ## *Transmuting Digital Metadata into Narrative Gold*  
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
+[![License](https://img.shields.io/badge/license-Apache-blue.svg)](LICENSE)  
 [![GitHub Repo stars](https://img.shields.io/github/stars/trizist/one-ten-protocol?style=social)](https://github.com/trizist/one-ten-protocol)
 
 > *“Metadata is inert until it converges across dimensions—and only then does it whisper truth.”*
