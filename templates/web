@@ -1,0 +1,15 @@
+web/
+├── public/
+│   └── index.html
+├── src/
+│   ├── wasm/                 # Compile Python logic to WASM via Pyodide or Rust
+│   │   └── one_ten_core.wasm
+│   ├── components/
+│   │   ├── InputPanel.jsx    # Sliders for Temporal, Power, etc.
+│   │   ├── DimensionGrid.jsx # 12-dim visualization
+│   │   ├── TruthNodeMap.jsx  # Interactive convergence graph
+│   │   └── ChronicleView.jsx # Renders final narrative
+│   ├── App.jsx
+│   └── index.js
+├── package.json
+└── README.md
