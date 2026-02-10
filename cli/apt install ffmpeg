@@ -1,0 +1,9 @@
+cd cli
+pip install -r requirements.txt
+
+python chronicle-cli.py \
+  --temporal 362 \
+  --power 63 \
+  --capacity 128 \
+  --weight 2.4 \
+  --output-dir ./runs/run247
